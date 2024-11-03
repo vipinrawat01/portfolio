@@ -52,8 +52,8 @@ const NavBar = () => {
                             Contacts
                         </ScrollLink>
                         <a 
-                            href='/resume.pdf' // Change this to the path of your resume file
-                            download // Adds download functionality
+                            href='/public/resume.pdf' 
+                            download
                             className='ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out'
                         >
                             <AiOutlineDownload className='inline mr-1' /> Download Resume
