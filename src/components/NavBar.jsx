@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { IoMenu } from 'react-icons/io5';
 import { AiOutlineDownload } from 'react-icons/ai';
-import { Link as ScrollLink } from 'react-scroll'; // Import Link from react-scroll
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom for page navigation
-
+import { Link as ScrollLink } from 'react-scroll'; 
+import { Link } from 'react-router-dom'; 
 const NavBar = () => {
     const [isActive, setIsActive] = useState(false);
 
