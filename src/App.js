@@ -13,7 +13,7 @@ import Certificates from './components/Certificates'; // Ensure this component e
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div className="App">
         <NavBar />
         <Routes>
